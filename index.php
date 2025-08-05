@@ -1,4 +1,4 @@
-<?php include("/security/DB_connect.php"); ?>
+<?php include("security/DB_connect.php"); ?>
 
 <?php
 session_start();
@@ -79,5 +79,6 @@ session_start();
     <?php include 'components/footer.php'; ?>
 
 </body>
+
 
 </html>
