@@ -1,8 +1,8 @@
-<?php include("/security/DB_connect.php"); ?>
+<?php include("security/DB_connect.php"); ?>
 
 <?php
 session_start();
-// if (!isset($_SESSION["loggedin"])) {
+// if (!isset($_SESSION["loggedin"])) { 
 //     header("location: login.php");
 //     exit();
 // }
