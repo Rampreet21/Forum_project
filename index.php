@@ -1,4 +1,4 @@
-<?php include("security/DB_connect.php"); ?>
+<?php include("/security/DB_connect.php"); ?>
 
 <?php
 session_start();
