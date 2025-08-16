@@ -4,6 +4,7 @@
 $alert = false;
 $success = false;
 session_start();
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!isset($_SESSION["loggedin"])) {
         $alert = true;
@@ -20,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +34,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
     </script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="website icon" href="Flogo.png" type="png">
     <title>coments</title>
     <style>
 

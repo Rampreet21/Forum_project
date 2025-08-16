@@ -19,7 +19,8 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] == true) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Sign Up</title>
+    <title>Sign Up</title> 
+    <link rel="website icon" href="Flogo.png" type="png">
 
 </head>
     
@@ -41,16 +42,20 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] == true) {
                 if ($useralert) {
                     echo $showalAlert;
                 } ?>
-                
                 </div>
+
             <div class="mb-3">
                 <label for="email" class="form-label"><i class="fa-solid fa-envelope"></i> Email</label>
                 <input type="email" class="form-control" id="email" name="email" required maxlength="50">
+                <?php
+                if ($emailalert) {
+                    echo $showalAlert;
+                } ?>
             </div>
             
             <div class="mb-3">
                 <label for="password" class="form-label"><i class="fa-solid fa-key"></i> Password</label>
-                <input type="password" class="form-control" id="password" name="password" required maxlength="20">
+                <input type="text" class="form-control" id="password" name="password" required maxlength="20">
             </div>
             <div class="mb-3">
                 <label for="cpassword" class="form-label"><i class="fa-solid fa-lock"></i> Confirm Password</label>

@@ -33,7 +33,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="style.css">
-    <title>contact us</title>
+    <title>contact us</title> 
+    <link rel="website icon" href="Flogo.png" type="png">
 </head>
 
 <body>

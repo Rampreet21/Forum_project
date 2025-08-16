@@ -38,6 +38,7 @@ if (!isset($_SESSION["loggedin"])) {
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="style.css">
+    <link rel="website icon" href="Flogo.png" type="png">
     <title>Categories</title>
     <style>
 

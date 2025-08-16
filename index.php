@@ -2,7 +2,7 @@
 
 <?php
 session_start();
-// if (!isset($_SESSION["loggedin"])) { 
+// if (!isset($_SESSION["loggedin"])) {
 //     header("location: login.php");
 //     exit();
 // }
@@ -19,6 +19,7 @@ session_start();
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
     </script>
+    <link rel="website icon" href="Flogo.png" type="png">
     <link rel="stylesheet" href="style.css">
     <title>Forum</title>
     <style>
@@ -79,6 +80,5 @@ session_start();
     <?php include 'components/footer.php'; ?>
 
 </body>
-
 
 </html>
